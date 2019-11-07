@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-container{
+  width: 90%;
+  margin: 30px auto;
+  display: flex; 
+  flex-direction: column;
+
+
+}
+.comments__item {
+  margin-bottom: 30px;
+  padding: 15px;
+  box-shadow: 0px 0px 5px 1px lightgray;
+  background: #f5f5f5;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: auto;
+  align-self: flex-end;
+}
+.comments__comments {
+  font-style: italic;
+  font-size: 18px;
+  
+}
+.comments__user-name {
+  font-size: 14px;
+  color: grey;
+}
+.input,
+.textarea {
+  min-width: 100%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.input {
+  margin-bottom: 20px;  
+}
+.textarea {
+  min-height: 100px;
+}
+.button {
+  padding: 15px 45px;
+  border-radius: 40px;
+  margin: 20px auto; 
+  border: none;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(46.19deg, #39D8F2 0%, #157BD3 99.28%);
+  box-shadow: -10px 10px 150px rgba(167, 167, 167, 0.5), 0px 0px 7px rgba(0, 0, 0, 0.15);
+  cursor: pointer; 
+  outline: none;
+}
